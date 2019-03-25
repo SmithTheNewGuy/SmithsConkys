@@ -1,4 +1,5 @@
 # SmithsConkys
+IF YOUR FORMATING LOOKS UGLY, DELETE THE NOTES, I ADDED THOSE AFTER.
 I am using this in ubuntu (Cosmic Cuddlefish) <p>
 Xfce<p>
 The install date is bodged, you will have to enter your own install date OR remove the line<p>
