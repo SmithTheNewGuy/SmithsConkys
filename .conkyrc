@@ -94,16 +94,11 @@ ${goto 10}${color1}${voffset -2}${font}${top_mem name 5}${alignr 10}${top mem 5}
 ${voffset -5}${font Adele:size=14,weight:normal}${color2}${alignc}${scroll 25 ........................}
 #
 ${goto 10}${voffset -5}${font Adele:size=12}conky, arch is gay, so is javascript
-
-
-
-
-
-
-
-
-
-
-
+#/***********************************************************/#
+#/*       Please leave this here if you use this code       */#
+#/*           Conky Script Made By SmithTheNewGuy           */#
+#/*   https://github.com/SmithTheNewGuy/SmithsConkys.git    */#
+#/*          Do note, these are a work in progress          */#
+#/***********************************************************/#
 
 
