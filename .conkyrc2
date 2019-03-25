@@ -1,0 +1,81 @@
+background yes
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+imlib_cache_size 0
+update_interval 1
+cpu_avg_samples 1
+format_human_readable
+alignment bottom_right
+gap_x 0
+gap_y 25
+minimum_size 240 0
+maximum_width 240
+
+own_window yes
+own_window_type panel #If "Normal" Is Used It Bugs Out Some Times
+own_window_class Conky
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent no
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_argb_value 0
+
+border_inner_margin 0
+border_outer_margin 0
+
+default_bar_size 100 6
+draw_shades no
+default_shade_color 000000
+draw_outline no
+default_outline_color 000000
+draw_borders no
+draw_graph_borders yes
+default_graph_size 40,220
+show_graph_scale no
+show_graph_range no
+
+override_utf8_locale yes
+use_xft yes
+xftfont Adele:size=13,weight:normal
+xftalpha 1
+uppercase no
+max_text_width 40
+
+default_color ffffff #White
+color1 AEA79F #Ubuntu Warm Grey From The Ubuntu Site
+color2 FF5A45 #Ubuntu Orange From The Ubuntu Site
+color3 81CAE0 #Light Blue
+color4 8B0000 #Standard Dark Red
+
+
+TEXT
+${voffset 19}${font Adele:size=14,weight:normal}${color2}${alignc}................................ ${font}${font Adele:size=1,weight:normal}
+${alignc}${color1}${alignc}         .-.
+         .-'``(   )${color2}
+      ,`\ ${color1}\    `-`.${color2}
+     /   \${color1} '`` ~.   `${color2}  
+   .-.  ,'${color1}       `___:${color2}  
+  (   ) ;        ${color4} ___ ${color2}  
+   `-`  `,   ${color4}    ,   ;${color2}
+     \   /${color4} ,..-`    /${color2}
+      `./ ${color4}/    .-.`${color2}
+         ${color4}`-..-(   )
+               `-`${goto 0}${color3}${alignc} 
+Kernel:$kernel #Displays Kernel
+Environment:${alignr}$XDG_CURRENT_DESKTOP
+${time %A}${font Adele:size=30,weight:normal}${alignr}${time %H:%M}${font}
+Desktop:${alignr}$desktop_name Desktop
+#
+#Make this better by using {goto X}
+.xsession-errors:${goto 170}${exec command du -c .xsession-errors}
+#
+#
+${voffset -5}${font Adele:size=14,weight:normal}${color2}${alignc}................................ ${font}
+
+#/***********************************************************/#
+#/*       Please leave this here if you use this code       */#
+#/*           Conky Script Made By SmithTheNewGuy           */#
+#/*   https://github.com/SmithTheNewGuy/SmithsConkys.git    */#
+#/*          Do note, these are a work in progress          */#
+#/***********************************************************/#
